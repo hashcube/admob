@@ -1,0 +1,19 @@
+{
+	"copyFiles": [
+		"LeadBoltPlugin.java"
+	],
+	"libraries": [
+	],
+	"jars": [
+		"leadbolt.jar",
+		"AppFireworks.jar"
+	],
+	"injectionXML": "manifest.xml",
+	"injectionXSL": "manifest.xsl",
+	"injectionSource": [
+		{
+			"regex": "LEADBOLT_PACKAGE",
+			"keyForReplace": "leadBoltPackage"
+		}
+	]
+}

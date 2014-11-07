@@ -1,0 +1,2 @@
+# Admob
+### Game closure plugin
