@@ -3,7 +3,6 @@ import com.tealeaf.TeaLeaf;
 import com.tealeaf.logger;
 import android.os.Bundle;
 
-import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
 import com.tealeaf.plugin.IPlugin;
@@ -13,8 +12,6 @@ import android.content.Context;
 
 import com.tealeaf.EventQueue;
 import com.tealeaf.event.*;
-
-import android.widget.Toast;
 
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.AdRequest;
@@ -26,7 +23,6 @@ public class AdmobPlugin implements IPlugin {
   private String TAG = "{admob}";
   private String adUnitID = null;
   AdRequest adRequest = null;
-
 
   public class AdmobAdAvailable extends com.tealeaf.event.Event {
 
@@ -123,8 +119,6 @@ public class AdmobPlugin implements IPlugin {
   }
 
   public void cacheInterstitial(String jsonData) {
-     // Create ad request.
-
     adRequest = new AdRequest
       .Builder()
       .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
