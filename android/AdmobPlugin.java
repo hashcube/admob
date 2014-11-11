@@ -95,12 +95,12 @@ public class AdmobPlugin implements IPlugin {
 
           @Override
           public void onAdLeftApplication(){
-            // Add left application
+            // Ad left application
           }
 
           @Override
           public void onAdOpened() {
-            // Add opened
+            // Ad opened
           }
         };
         interstitial.setAdListener(adListener);
