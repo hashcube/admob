@@ -5,7 +5,6 @@
   "libraries": [
   ],
   "jars": [
-    "gms.ads.jar"
   ],
   "injectionXML": "manifest.xml",
   "injectionXSL": "manifest.xsl"
